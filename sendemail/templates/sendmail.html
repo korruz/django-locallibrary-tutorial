@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Send Mail</title>
+  </head>
+  <body>
+    <h1>Send Mail</h1>
+    <form method="post">
+      {% csrf_token %}
+      <button type="submit">Send</button>
+    </form>
+  </body>
+</html>
